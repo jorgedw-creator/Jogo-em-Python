@@ -90,7 +90,7 @@ class Jogo:
                 self.inimigo.atacar(self.heroi)
 
         if self.heroi.get_vida() > 0:
-                 print("\nParabéns, você vendeu a batalha!")
+                 print("\nParabéns, você venceu a batalha!")
         else:
                  print("\nVocê foi derrotado!")
 
